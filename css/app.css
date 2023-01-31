@@ -20,7 +20,7 @@ img{
     background-color: #DE1630;
     color: white;
     width: 400px;
-    height: 800px;
+    height: 600px;
     padding: 20px;
     border-radius: 20px;
  
@@ -29,7 +29,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .row:last-child{
     justify-content: center;
@@ -37,8 +37,12 @@ img{
 .treno{
     font-size: 50px;
 }
+.stazione{
+    font-weight:lighter;
+    font-size: smaller;
+}
 .qr{
-    margin-top: 200px;
+    margin-top: 50px;
     width: 150px;
 }
 /* 
