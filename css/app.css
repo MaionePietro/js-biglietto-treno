@@ -29,6 +29,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 .row:last-child{
     justify-content: center;
@@ -37,7 +38,7 @@ img{
     font-size: 50px;
 }
 .qr{
-    margin-top: 300px;
+    margin-top: 200px;
     width: 150px;
 }
 /* 
