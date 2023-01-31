@@ -3,6 +3,7 @@
 let nome, cognome;
 nome = prompt('inserisci il tuo nome');
 cognome = prompt('inserisci ul tuo cognome');
+console.log(nome, cognome);
 
 // 1: Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere
 
