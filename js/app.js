@@ -1,9 +1,17 @@
 alert('Benvenuto in Trenitalia, i nostri treni ti porteranno a destinazione con 10 anni di ritardo');
+let nome, cognome;
+nome = prompt('inserisci il tuo nome');
+document.getElementById('nome_id').innerHTML = nome;
+
+cognome = prompt('inserisci ul tuo cognome');
+document.getElementById('cognome_id').innerHTML = cognome;
+
 
 // 1: Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere
 
 let km = prompt('Quanti chilometri devi percorrere ?');
 km = parseInt(km);
+document.getElementById('km_id').innerHTML = km;
 console.log(km);
 
 // 2: Chiedere l'età del passeggero

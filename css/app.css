@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.background{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_treno{
+    background-color: #DE1630;
+    color: white;
+    width: 400px;
+    height: 800px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+numero kilometri del viaggio
+nome e cognome del passeggero
+prezzo base del biglietto
+valore dello sconto
+prezzo finale del biglietto
+*/
