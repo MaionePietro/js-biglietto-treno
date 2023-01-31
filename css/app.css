@@ -23,17 +23,24 @@ img{
     height: 800px;
     padding: 20px;
     border-radius: 20px;
+ 
 }
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.row:last-child{
+    justify-content: center;
+}
+.treno{
+    font-size: 50px;
+}
+.qr{
+    margin-top: 300px;
+    width: 150px;
+}
 /* 
 numero kilometri del viaggio
-nome e cognome del passeggero
-prezzo base del biglietto
 valore dello sconto
-prezzo finale del biglietto
 */

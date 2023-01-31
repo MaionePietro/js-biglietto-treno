@@ -25,6 +25,7 @@ const kmPrezzo = (0.21 );
 console.log(kmPrezzo);
 
 const totKm = (km * kmPrezzo);
+document.getElementById('totKm_id').innerHTML = totKm;
 console.log('prezzo chilometri: ' + totKm + '€');
 
 // 4: applicare sconto in base all'età 20% junior e 40% senior
@@ -37,6 +38,7 @@ if(anni <= 18){
     prezzoFinale = totKm - sconto;
 }
 const prezzoDecimali = prezzoFinale.toFixed(2);
+document.getElementById('prezzo_id').innerHTML = prezzoDecimali;
 console.log('prezzo finale: ' + prezzoDecimali + '€');
 
 
