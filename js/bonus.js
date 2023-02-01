@@ -35,20 +35,16 @@ document.getElementById('totKm_id').innerHTML = totKm + ' tot €';
 console.log('prezzo chilometri: ' + totKm + ' €');
 
 // 4: applicare sconto in base all'età 20% junior e 40% senior
-let sconto, prezzoFinale, prezzoDecimali;
+let sconto =0 , prezzoFinale, prezzoDecimali;
 
 if(anni <= 18){
     sconto = (totKm / 100) * 20;
-    prezzoFinale = totKm - sconto;
     document.getElementById('sconto_id').innerHTML = ('20%');
-    prezzoDecimali = prezzoFinale.toFixed(2);
-    console.log('prezzo finale: ' + prezzoDecimali + '€');
-    document.getElementById('prezzo_id').innerHTML = (prezzoDecimali + ' €');
 }else if(anni >= 65){
     sconto = (totKm / 100) * 40;
-    prezzoFinale = totKm - sconto;
     document.getElementById('sconto_id').innerHTML = ('40%');
-    prezzoDecimali = prezzoFinale.toFixed(2);
-    console.log('prezzo finale: ' + prezzoDecimali + '€');
-    document.getElementById('prezzo_id').innerHTML = (prezzoDecimali + ' €');
 }
+prezzoFinale = totKm - sconto;
+prezzoDecimali = prezzoFinale.toFixed(2);
+console.log('prezzo finale: ' + prezzoDecimali + '€');
+document.getElementById('prezzo_id').innerHTML = (prezzoDecimali + ' €');
